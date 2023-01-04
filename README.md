@@ -6,8 +6,8 @@ of various parts of the file system structure.
 
 # What it does
 
-This program reads the file system image and determines the consistency of  
-several rules specified below. When a problem is detected, it prints the  
+This program reads the file system image and determines the consistency of 
+several rules specified below. When a problem is detected, it prints the 
 corresponding error message to standard error and exit immediately with exit code 1.  
 
 1. Each inode is either unallocated or one of the valid types (T_FILE, T_DIR, T_DEV). 
