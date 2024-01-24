@@ -1,4 +1,4 @@
-# File System Checker for xv6
+# File System Integrity Validator for xv6
 
 This tool is designed to check the consistency of the xv6 file system image. It thoroughly analyzes the on-disk format and performs checks to verify the integrity of various parts of the file system structure.
 
